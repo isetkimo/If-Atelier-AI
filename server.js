@@ -1,3 +1,1 @@
-
-// Node.js 後端入口
-// 負責 API、安全驗證、資料交換
+// Express後端入口，負責保護API KEY
