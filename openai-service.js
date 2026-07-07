@@ -1,1 +1,0 @@
-// OpenAI API呼叫模組
