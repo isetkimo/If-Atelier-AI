@@ -1,7 +1,35 @@
+
 <!DOCTYPE html>
-<html lang="zh-Hant"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>If Atelier AI</title><link rel="stylesheet" href="style.css"></head>
-<body><div class="app"><h1>🤍 If Atelier AI</h1><p>如果的室｜AI美容店長</p>
-<div class="card"><select id="service"><option>韓式皮膚管理</option><option>日式美甲</option><option>臉部撥筋</option></select>
-<textarea id="request" placeholder="輸入你的需求"></textarea>
-<button onclick="generate()">AI生成企劃</button><div id="result"></div></div></div>
-<script src="app.js"></script></body></html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>If Atelier AI Connected</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+<h1>🤍 If Atelier AI</h1>
+<p>如果的室｜AI 美容店長</p>
+
+<div class="card">
+<h2>AI 行銷企劃</h2>
+
+<select id="service">
+<option>韓式皮膚管理</option>
+<option>日式美甲設計</option>
+<option>臉部撥筋</option>
+<option>肩頸舒壓</option>
+</select>
+
+<textarea id="request" placeholder="例如：設計七月夏季保養活動"></textarea>
+
+<button onclick="sendAI()">送出給 AI 店長</button>
+
+<div id="result"></div>
+</div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

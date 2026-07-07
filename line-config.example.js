@@ -1,5 +1,5 @@
 
 module.exports={
-CHANNEL_ACCESS_TOKEN:"",
+TOKEN:"",
 USER_ID:""
 }

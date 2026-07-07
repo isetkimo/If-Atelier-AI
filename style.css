@@ -1,1 +1,36 @@
-body{background:#f6efe8;font-family:sans-serif}.app{max-width:700px;margin:auto;padding:25px}.card{background:white;padding:25px;border-radius:20px}select,textarea,button{width:100%;padding:15px;margin:10px 0;border-radius:12px}button{background:#8b6b52;color:white;border:0}#result{white-space:pre-line;padding:15px;background:#faf6f0}
+
+body{
+background:#f6efe8;
+font-family:sans-serif;
+color:#44372f;
+}
+.app{
+max-width:700px;
+margin:auto;
+padding:25px;
+}
+.card{
+background:white;
+padding:25px;
+border-radius:20px;
+box-shadow:0 8px 20px #0001;
+}
+select,textarea,button{
+width:100%;
+padding:15px;
+margin:10px 0;
+border-radius:12px;
+}
+textarea{
+height:120px;
+}
+button{
+background:#8b6b52;
+color:white;
+border:0;
+}
+#result{
+margin-top:20px;
+white-space:pre-line;
+line-height:1.8;
+}

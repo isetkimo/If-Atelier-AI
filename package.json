@@ -1,0 +1,11 @@
+
+{
+"name":"if-atelier-ai",
+"version":"1.0.0",
+"dependencies":{
+"express":"latest",
+"cors":"latest",
+"dotenv":"latest",
+"openai":"latest"
+}
+}
