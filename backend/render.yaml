@@ -1,7 +1,0 @@
-
-services:
-- type: web
-  name: if-atelier-ai
-  runtime: node
-  buildCommand: npm install
-  startCommand: npm start
