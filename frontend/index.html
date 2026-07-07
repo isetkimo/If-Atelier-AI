@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>If Atelier AI Connected V3</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+<h1>🤍 If Atelier AI</h1>
+<p>如果的室｜AI 美容店長 V3</p>
+
+<div class="card">
+<h2>AI 行銷助手</h2>
+
+<select id="service">
+<option>韓式皮膚管理</option>
+<option>日式美甲設計</option>
+<option>臉部撥筋</option>
+<option>肩頸舒壓</option>
+</select>
+
+<textarea id="message" placeholder="例如：幫我設計七月夏季保養活動"></textarea>
+
+<button onclick="askAI()">詢問 AI 店長</button>
+
+<div id="status"></div>
+<div id="result"></div>
+</div>
+</div>
+
+<script src="config.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
