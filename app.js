@@ -1,1 +1,21 @@
-let lastPost='';function generate(){let s=document.getElementById('service').value;let g=document.getElementById('goal').value;let p=document.getElementById('platform').value;let a=contentDB[s];lastPost=`🤍 如果的室｜美學療癒所\n\n${s}\n\n${a[Math.floor(Math.random()*a.length)]}\n\n目的:${g}\n平台:${p}\n\n#如果的室 #桃園美容`;document.getElementById('result').innerText=lastPost;}function linePreview(){alert('LINE審核架構預留完成');}
+
+function createContent(){
+const service=document.getElementById('service').value;
+const goal=document.getElementById('goal').value;
+
+document.getElementById('result').innerText=
+`🤍 如果的室｜美學療癒所
+
+服務：${service}
+
+目的：${goal}
+
+AI品牌建議：
+這裡將由 OpenAI API 產生專屬內容。
+
+包含：
+IG貼文
+IG限動
+Reels腳本
+LINE推播內容`;
+}

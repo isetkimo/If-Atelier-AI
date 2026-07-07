@@ -1,0 +1,20 @@
+{
+  "customers": [
+    "name",
+    "phone",
+    "service",
+    "date",
+    "note"
+  ],
+  "booking": [
+    "date",
+    "time",
+    "customer",
+    "service"
+  ],
+  "marketing": [
+    "content",
+    "status",
+    "date"
+  ]
+}

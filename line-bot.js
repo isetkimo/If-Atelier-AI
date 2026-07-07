@@ -1,3 +1,4 @@
-// LINE Messaging API串接位置
-// V2預留功能
-// 將產生內容透過LINE Bot送給店主審核
+
+// LINE Messaging API
+// AI生成後通知老闆審核
+// 通過後才發布

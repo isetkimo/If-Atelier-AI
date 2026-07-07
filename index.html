@@ -1,1 +1,46 @@
-<!DOCTYPE html><html lang='zh-Hant'><head><meta charset='UTF-8'><meta name='viewport' content='width=device-width,initial-scale=1.0'><title>If Atelier AI V3</title><link rel='stylesheet' href='style.css'></head><body><div class='app'><h1>🤍 If Atelier AI</h1><p>如果的室｜美學療癒所<br>AI 行銷管家 V3.0</p><div class='card'><select id='service'><option>韓式皮膚管理</option><option>日式美甲設計</option><option>臉部撥筋</option></select><select id='goal'><option>吸引新客</option><option>回訪老客</option><option>限時優惠</option></select><select id='platform'><option>IG貼文</option><option>IG限動</option><option>Reels</option></select><button onclick='generate()'>生成內容</button><button onclick='linePreview()'>LINE審核預覽</button><div id='result'></div></div></div><script src='content-db.js'></script><script src='app.js'></script></body></html>
+
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>If Atelier AI 店長</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+<h1>🤍 If Atelier AI</h1>
+<p>如果的室｜AI 美容店長 Final</p>
+
+<div class="card">
+<h2>AI 行銷中心</h2>
+<select id="service">
+<option>韓式皮膚管理</option>
+<option>日式美甲設計</option>
+<option>臉部撥筋</option>
+<option>肩頸舒壓</option>
+</select>
+
+<select id="goal">
+<option>吸引新客</option>
+<option>老客回訪</option>
+<option>節日活動</option>
+<option>品牌經營</option>
+</select>
+
+<button onclick="createContent()">AI 生成行銷內容</button>
+<div id="result"></div>
+</div>
+
+<div class="card">
+<h2>系統模組</h2>
+<p>✓ AI 行銷</p>
+<p>✓ AI 客服</p>
+<p>✓ LINE 審核</p>
+<p>✓ 客戶管理</p>
+<p>✓ 預約系統</p>
+</div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
