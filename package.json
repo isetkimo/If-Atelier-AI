@@ -1,0 +1,14 @@
+
+{
+"name":"if-atelier-ai-server",
+"version":"1.0.0",
+"scripts":{
+"start":"node server.js"
+},
+"dependencies":{
+"express":"latest",
+"cors":"latest",
+"dotenv":"latest",
+"openai":"latest"
+}
+}
