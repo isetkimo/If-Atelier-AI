@@ -1,32 +1,30 @@
 
-async function sendAI(){
+async function askAI(){
 
-const service=document.getElementById("service").value;
-const request=document.getElementById("request").value;
+const msg=document.getElementById("message").value;
 
-document.getElementById("result").innerText="AI分析中...";
+document.getElementById("answer").innerText="AI分析中...";
 
 try{
 
-const response=await fetch("http://localhost:3000/api/generate",{
+const res=await fetch("http://localhost:3000/api/chat",{
 method:"POST",
 headers:{
 "Content-Type":"application/json"
 },
 body:JSON.stringify({
-service,
-request
+message:msg
 })
 });
 
-const data=await response.json();
+const data=await res.json();
 
-document.getElementById("result").innerText=data.content;
+document.getElementById("answer").innerText=data.reply;
 
-}catch(error){
+}catch(e){
 
-document.getElementById("result").innerText=
-"目前無法連線後端，請確認 Server 是否啟動";
+document.getElementById("answer").innerText=
+"尚未連接後端";
 
 }
 

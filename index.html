@@ -4,32 +4,32 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>If Atelier AI Connected</title>
+<title>If Atelier AI Connected V2</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <div class="app">
 <h1>🤍 If Atelier AI</h1>
-<p>如果的室｜AI 美容店長</p>
+<p>如果的室｜AI 美容助理 V2</p>
 
 <div class="card">
-<h2>AI 行銷企劃</h2>
-
-<select id="service">
-<option>韓式皮膚管理</option>
-<option>日式美甲設計</option>
-<option>臉部撥筋</option>
-<option>肩頸舒壓</option>
-</select>
-
-<textarea id="request" placeholder="例如：設計七月夏季保養活動"></textarea>
-
-<button onclick="sendAI()">送出給 AI 店長</button>
-
-<div id="result"></div>
-</div>
+<h2>AI 對話</h2>
+<textarea id="message" placeholder="例如：幫我設計本週美容活動"></textarea>
+<button onclick="askAI()">詢問 AI 店長</button>
+<div id="answer"></div>
 </div>
 
+<div class="card">
+<h2>功能模組</h2>
+<ul>
+<li>AI 行銷文案</li>
+<li>AI 客服回答</li>
+<li>客戶回訪提醒</li>
+<li>LINE 審核流程</li>
+<li>歷史紀錄</li>
+</ul>
+</div>
+</div>
 <script src="app.js"></script>
 </body>
 </html>

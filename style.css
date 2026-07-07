@@ -13,24 +13,22 @@ padding:25px;
 background:white;
 padding:25px;
 border-radius:20px;
+margin-bottom:20px;
 box-shadow:0 8px 20px #0001;
 }
-select,textarea,button{
+textarea,button{
 width:100%;
 padding:15px;
-margin:10px 0;
+margin-top:10px;
 border-radius:12px;
-}
-textarea{
-height:120px;
 }
 button{
 background:#8b6b52;
 color:white;
 border:0;
 }
-#result{
-margin-top:20px;
+#answer{
 white-space:pre-line;
+margin-top:20px;
 line-height:1.8;
 }
